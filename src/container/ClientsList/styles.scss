@@ -1,0 +1,14 @@
+.ClientsList {
+  &-item {
+    border: 1px solid black;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    &-button {
+      margin-left: 10px;
+    }
+  }
+}
